@@ -50,5 +50,5 @@ bool balanced(Node* root){
 int main(){
     Node* root = NULL;
     root = create(root);
-    cout<<(balanced(root)?"Yes":"No");
+    cout<<(balanced(root)?"Yes its a balanced tree":"No");
 }
